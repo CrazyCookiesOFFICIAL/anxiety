@@ -14,13 +14,13 @@
 
 `clearText()`
 
-n3: So before we start, how would *you* like to read?
+n3: How fast do you want the text to scroll?
 
 `publish("show_options_bottom")`
 
 # intro-start-2
 
-n3: Now, let's begin our story...
+n3: This is a joke. please play the original.
 
 ```
 publish("hide_tabs");
@@ -66,7 +66,7 @@ sfx("rustle");
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Nope. No, nope, not listening. Gonna check my phone.
+h: No. Not listening. Not giving in.
 
 ```
 sfx("rustle2");
@@ -77,14 +77,14 @@ n: YOUR JOB IS TO PROTECT YOUR HUMAN FROM *DANGER*
 
 `bb({eyes:"look", mouth:"small_lock", body:"fear"})`
 
-b: Gasp! You're scrolling your life away on Twitter! Again!
+b: GET THE FUCK OFF TWITTER
 
 ```
 bb({eyes:"normal", mouth:"normal", body:"normal"});
 hong({eyes:"annoyed"});
 ```
 
-h: Yeah I wonder why I don't just sit and listen to my thoughts more often.
+h: Why the fuck do I not think, like, ever?
 
 `hong({eyes:"neutral"});`
 
@@ -94,17 +94,17 @@ n: QUICK, WARN THEM ABOUT A *DANGER!*
 bb({eyes:"look"});
 ```
 
-[Oh no, look at that horrible news story!](#act1d_news)
+[Oh, Trump did something stupid again!](#act1d_news)
 
-[Oh no, is that tweet secretly about *us?*](#act1d_subtweet)
+[What if we start trending for the *wrong* reason?!](#act1d_subtweet)
 
-[Hey, a GIF of a cat drinking milk](#act1d_milk)
+[Aw, look! A cat drinking milk!](#act1d_milk)
 
 # act1d_milk
 
 `hong({mouth:"smile", eyes:"surprise"});`
 
-h: Heh ya that's cute, I--
+h: Aww, that's adorable. I'll retweet it-
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -112,7 +112,7 @@ bb({body:"scream"});
 Game.OVERRIDE_TEXT_SPEED = 1.8;
 ```
 
-b: CATS CAN'T DIGEST MILK AND WE'RE TERRIBLE PEOPLE FOR ENJOYING ANIMAL ABUSE
+b: CATS ARE LACTOSE INTOLERANT YOU SHOULD KNOW THIS YOU'RE A BAD PERSON
 
 (...200)
 
